@@ -15,6 +15,7 @@ def main():
 	discOpt = 1
 	evaluateSinglePolicy(load, digitsResults, printLevel, discOpt)	
 
+	# # Uncomment the following line to run benckmarks against standard strategies
 	# # Save .txt file with results for Table I
 	# discOpt = 1 # 1 = 2^{n_u} + n_u belief points, 2 = 2(2^{n_u}) belief points
 	# gridWorldList = ['5x5' , '10x5', '15x15' ]
